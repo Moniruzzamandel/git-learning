@@ -1,15 +1,10 @@
 public class Hello{
     public static void main(String[] args){
-        Sytem.out.println("Git is Awesome");
-        greetings("Git");
+        Sytem.out.println("Git is Awesome");        
     }
 
-    public static void greetings(String name){
-        Sytem.out.println("Welcome " + name);
-    }
-
-    public static int sqr(int x){
-        return x*x;
-    }
+    public static void message(){
+        Sytem.out.println("Welcome to Git world!");
+    }    
 
 }
